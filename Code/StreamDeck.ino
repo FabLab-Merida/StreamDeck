@@ -83,7 +83,7 @@ void seleccion_capa() {
     estado_encoder_0 = estado_encoder_1;
     /*Serial.print("la capa es ");
     Serial.print(capa_teclado);*/
-    delay(120);
+    delay(300);
 
     if (capa_teclado == 0) {
       neopi.setPixelColor(0, 255, 0, 0);
